@@ -42,14 +42,13 @@ export default function Home() {
     //   </form>
     // </main>
     <div>
-      {/* <UserVerificationEmail /> */}
       {/* <VendorApplication /> */}
       {/* <ApplicationApproved /> */}
       {/* <VendorRejectEmail /> */}
       {/* <VendorUpdateEmail /> */}
       {/* <ContactForm /> */}
-      {/* <ContactForm /> */}
       {/* <Email21 /> */}
+      {/* <Email1 /> */}
       {/* <Email2 /> */}
       <Email3 />
     </div>

@@ -1,12 +1,12 @@
-// import ApplicationApproved from '@/emails/ApplicationApproved';
-// import VendorApplication from '@/emails/VendorApplication';
-// import VendorRejectEmail from '@/emails/VendorRejectEmail';
-// import ContactForm from '@/emails/ContactForm';
-// import VendorUpdateEmail from '@/emails/VendorUpdateEmail';
-// import Email1 from '@/emails/Email1';
-// import Email2 from '@/emails/Email2';
+import ApplicationApproved from '@/emails/ApplicationApproved';
+import VendorApplication from '@/emails/VendorApplication';
+import VendorRejectEmail from '@/emails/VendorRejectEmail';
+import ContactForm from '@/emails/ContactForm';
+import VendorUpdateEmail from '@/emails/VendorUpdateEmail';
+import Email1 from '@/emails/Email1';
+import Email2 from '@/emails/Email2';
 import Email3 from '@/emails/Email3';
-// import Email21 from '@/emails/Email21';
+import Email21 from '@/emails/Email21';
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 // import { DropboxResetPasswordEmail } from '@/emails/Template';
@@ -20,7 +20,7 @@ export async function GET() {
         from: 'onboarding@resend.dev',
         to: 'shayanaffandi5785@gmail.com',
         subject: 'test',
-        react: Email3()
+        react: VendorUpdateEmail()
     });
     console.log('req sent')
     return NextResponse.json({
